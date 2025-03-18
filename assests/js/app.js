@@ -16,4 +16,4 @@ for(let i=10;i<15;i++){
 for(let j=0;j<=15;j++){
     Generate3[j]=Generate2[Math.floor((Math.random()*15)+1)]
 }
-console.log(Generate3.join(""))
+console.log("Generated Password Is : " + Generate3.join(""))
